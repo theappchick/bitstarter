@@ -82,7 +82,7 @@ if(require.main == module) {
     var checkJson = checkHtmlFile(program.file, program.checks);
     var outJson = JSON.stringify(checkJson, null, 4);
 
-    console.log(outJson);
+    //console.log(outJson);
 
     rest.get(program.url).on('complete', function(result) {
         if (result instanceof Error) {
