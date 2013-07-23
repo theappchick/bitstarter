@@ -12,6 +12,8 @@
           href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
     <style type="text/css">
 
             /* Large desktop */
@@ -228,11 +230,43 @@
             </div>
         </div>
 
+    <!--http://twitter.github.io/bootstrap/javascript.html#collapse-->
         <div class="row-fluid faq">
-            <div class="span12">
-                FAQ
+        <div class="span10 offset1">
+            <h3>FAQ</h3>
+
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse"
+                           data-parent="#accordion2" href="#collapseOne">
+                            What is The Triple Threat?
+                        </a>
+                    </div>
+                    <div id="collapseOne" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Dominate the market by hitting your customers from 3 angles! Some businesses use 1 or 2 of <a href="http://theappchicks.com/solutions/" target="_blank">The App Chicks’ solutions</a> to reach its customers. Other businesses want to beat their competition by taking full advantage of all 3 solutions. .
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse"
+                           data-parent="#accordion2" href="#collapseTwo">
+                            How do I get started?
+                        </a>
+                    </div>
+                    <div id="collapseTwo" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            Choose the plan that is right for you and click on the <a href="http://theappchicks.com/the-triple-threat-solution-pricing/" target="_blank">Sign up Now Chick!</a>
+                        </div>
+                    </div>
             </div>
         </div>
+        </div>
+
+    </div>
+
         <div class="row-fluid footer">
             <div class="span12">
                 Footer
