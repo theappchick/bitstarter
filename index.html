@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>My First Bitstarter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet"
-          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic'
           rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
           rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"
+          href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
     <style type="text/css">
 
             /* Large desktop */
@@ -47,12 +48,10 @@
             /* Main body and headings */
         body {
             font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-            padding-top: 20px;
-            padding-bottom: 40px;
         }
 
         .heading, .subheading {
-            font-famly: 'Ubuntu', Helvetica, Arial, sans-serif;
+            font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
             text-align: center;
         }
 
@@ -69,7 +68,7 @@
 
             /* Video pitch and Action */
         .pitch {
-            paddng: 2% 0%;
+            paddng: 2.5% 0%;
         }
 
         .order {
@@ -109,6 +108,8 @@
 </head>
 <body>
 
+<!-- Mobile-friendly navbar adapted from example. -->
+<!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -132,17 +133,10 @@
 </div>
 
 <div class="container">
-    <div class="row-fluid navigation">
-        <div class="span2 logo">
-            Logo
-        </div>
-        <div class="span6 blank">
-            Blank
-        </div>
-        <div class="span4 about">
-            About
-        </div>
-    </div>
+    <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
+    <!-- www.google.com/fonts/specimen/Ubuntu -->
+    <!-- www.google.com/fonts/specimen/Ubuntu#pairings
+         www.google.com/fonts#UsePlace:use/Collection:Open+Sans -->
     <div class="row-fluid heading">
         <div class="span12">
             <h1>Product</h1>
@@ -198,6 +192,11 @@
                 </div>
             </div>
         </div>
+
+    <!-- Beyond this part the marketing copy begins. -->
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+    <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+    <!-- http://placehold.it -->
         <div class="row-fluid section1">
             <div class="span12">
                 Marketing Section 1
