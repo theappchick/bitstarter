@@ -11,6 +11,7 @@
     <link rel="stylesheet"
           href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
     <style type="text/css">
 
             /* Large desktop */
@@ -20,11 +21,11 @@
             }
 
             .linediv-l {
-                border-right: 1px white solid;
+                border-right: 1px gray solid;
             }
 
             .linediv-r {
-                border-left: 1px white solid;
+                border-left: 1px gray solid;
             }
         }
 
@@ -35,11 +36,11 @@
             }
 
             .linediv-l {
-                border-bottom: 1px white solid;
+                border-bottom: 1px gray solid;
             }
 
             .linediv-r {
-                border-top: 1px white solid;
+                border-top: 1px gray solid;
             }
         }
 
@@ -176,11 +177,17 @@
                     <div class="bar bar-success" style="width: 67%;"></div>
                     <div class="bar bar-warning" style="width: 33%;"></div>
                 </div>
-                <div class="order">
-                    Order
                 </div>
-                <div class="social">
-                    Social
+            <div class="span6 offset3 order">
+                <!-- Standard Bootstrap button. -->
+                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                <button class="btn btn-success btn-large">Preorder</button>
+            </div>
+            <div class="span8 offset2 social">
+                <!-- Social buttons are not included in default Bootstrap. -->
+                <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+                <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
                 </div>
             </div>
         </div>
