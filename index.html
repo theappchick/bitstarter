@@ -93,12 +93,19 @@
         .video-container {
             position: relative; /* keeps the aspect ratio */
             padding-bottom: 56.25%; /* fine tunes the video positioning */
-            padding-top: 60px; overflow: hidden;
+            padding-top: 60px;
+            overflow: hidden;
         }
 
         .video-container iframe,
         .video-container object,
-        .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
         .statistics h3, .statistics p {
             color: white;
@@ -158,7 +165,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="#"><img src="http://theappchicks.com/mobile/theAppChicksMobileAppsAndMarketing-small.png" /></a>
+            <a class="brand" href="#"><img
+                    src="http://theappchicks.com/mobile/theAppChicksMobileAppsAndMarketing-small.png"
+                    alt="The App Chicks"/></a>
 
             <div class="nav-collapse collapse">
                 <ul class="nav">
@@ -191,57 +200,70 @@
         <div class="span5 offset1 video">
 
             <div class="video-container">
-                <iframe width="480" height="300" src="http://www.youtube.com/embed/U316ortipfQ?rel=0" frameborder="0" allowfullscreen></iframe>
+                <iframe width="480" height="300" src="http://www.youtube.com/embed/U316ortipfQ?rel=0" frameborder="0"
+                        allowfullscreen></iframe>
             </div>
-            <!--<img class="img-polaroid" src="http://placehold.it/480x300">-->
+            <!--<img class="img-polaroid" src="http://placehold.it/480x300" alt="Placeholder">-->
         </div>
         <div class="span5 actions">
-            <div class="span8 offset2">
-                <div class="statistics">
-                    <div class="span4">
-                        <!-- linediv-l and linediv-r give dividing lines that look
-                        different in horizontal and vertical layouts, illustrating
-                        media queries. -->
-                        <div class="linediv-l">
-                            <h3>33</h3>
+            <div class="row-fluid">
+                <div class="span8 offset2">
+                    <div class="row-fluid statistics">
+                        <div class="span4">
+                            <!-- linediv-l and linediv-r give dividing lines that look
+                            different in horizontal and vertical layouts, illustrating
+                            media queries. -->
+                            <div class="linediv-l">
+                                <h3>33</h3>
 
-                            <p>backers</p>
+                                <p>backers</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="span4">
-                        <div class="linediv-c">
-                            <h3>$3,333</h3>
+                        <div class="span4">
+                            <div class="linediv-c">
+                                <h3>$3,333</h3>
 
-                            <p>of $5,000</p>
+                                <p>of $5,000</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="span4">
-                        <div class="linediv-r">
-                            <h3>33</h3>
+                        <div class="span4">
+                            <div class="linediv-r">
+                                <h3>33</h3>
 
-                            <p>days left</p>
+                                <p>days left</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="span10 offset1">
-                <!-- Bootstrap progress bar -->
-                <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-                <div class="thermometer progress active">
-                    <div id="pbForeground" class="bar bar-success" style="width: 67%;"></div>
-                    <div id="pbBackground" class="bar bar-warning" style="width: 33%;"></div>
+            <div class="row-fluid">
+                <div class="span10 offset1">
+                    <!-- Bootstrap progress bar -->
+                    <!-- http://twitter.github.io/bootstrap/components.html#progress -->
+                    <div class="thermometer progress active">
+                        <div id="pbForeground" class="bar bar-success" style="width: 67%;"></div>
+                        <div id="pbBackground" class="bar bar-warning" style="width: 33%;"></div>
+                    </div>
                 </div>
             </div>
-            <div class="span6 offset3 order">
-                <!-- Standard Bootstrap button. -->
-                <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-                <button id="preOrderButton" class="btn btn-success btn-large">Preorder</button>
+            <div class="row-fluid">
+                <div class="span6 offset3 order">
+                    <!-- Standard Bootstrap button. -->
+                    <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+                    <button id="preOrderButton" class="btn btn-success btn-large">Preorder</button>
+                </div>
             </div>
-            <div class="span8 offset2 social">
-                <!-- Social buttons are not included in default Bootstrap. -->
-                <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-                <a href="https://twitter.com/theappchicks" target="_blank"> <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button></a>
-                <a href="https://www.facebook.com/theappchicks" target="_blank"><button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button> </a>
+            <div class="row-fluid">
+                <div class="span8 offset2 social">
+                    <!-- Social buttons are not included in default Bootstrap. -->
+                    <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+                    <a href="https://twitter.com/theappchicks" target="_blank">
+                        <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+                    </a>
+                    <a href="https://www.facebook.com/theappchicks" target="_blank">
+                        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -252,12 +274,18 @@
     <!-- http://placehold.it -->
     <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-            <img class="img-polaroid" src="http://theappchicks.com/mobile/mojito.png">
+            <img class="img-polaroid" src="http://theappchicks.com/mobile/mojito.png"
+                 alt="Custom Mobile App Development & Design">
         </div>
         <div class="span5 copy">
             <p>
                 iPhone, iPad and Android:<br>
-                <p>If your company qualifies for a free demo we can build out your companies app and usually have it ready to install on your device within 1 business day. We will install the app on your iPhone or Android device. All we ask is that you buy it if you like it. Give us a call for a free demo. Let us explain to you how a mobile app can keep your current clients tethered to your business and draw potential clients through your doors. </b>
+
+            <p>If your company qualifies for a free demo we can build out your companies app and usually have it ready
+                to install on your device within 1 business day. We will install the app on your iPhone or Android
+                device. All we ask is that you buy it if you like it. Give us a call for a free demo. Let us explain to
+                you how a mobile app can keep your current clients tethered to your business and draw potential clients
+                through your doors. </b>
             </P>
         </div>
     </div>
@@ -266,12 +294,19 @@
         <div class="span5 offset1 copy copy-right">
             <p>
                 Cutting Edge Technology: <br>
-            <img class="pull-left" src="http://theappchicks.com/mobile/chick.png" height="120" width="130"/>
-                <p>One of the things that sets The App Chicks apart from 99% of the Mobile App Companies out there is our commitment to beauty and functionality. We believe your app should visually “pop” when you look at it for the first time. We also believe that the functionality of the app should meet the needs of your users. Simply put, we are in the business of creating beautiful apps that function to make your establishment thrive.</p>
+                <img class="pull-left" src="http://theappchicks.com/mobile/chick.png" height="120" width="130"
+                     alt="Latest Technology with The App Chicks"/>
+
+            <p>One of the things that sets The App Chicks apart from 99% of the Mobile App Companies out there is our
+                commitment to beauty and functionality. We believe your app should visually “pop” when you look at it
+                for the first time. We also believe that the functionality of the app should meet the needs of your
+                users. Simply put, we are in the business of creating beautiful apps that function to make your
+                establishment thrive.</p>
             </p>
         </div>
         <div class="span5 asset">
-            <img class="img-polaroid" src="http://theappchicks.com/mobile/club-havoc.png">
+            <img class="img-polaroid" src="http://theappchicks.com/mobile/club-havoc.png"
+                 alt="Cutting Edge Technology with The App Chicks">
         </div>
     </div>
 
@@ -324,8 +359,10 @@
 
 
             <a title="Powered By The App Chicks.com" href="http://theappchicks.com/" target="_blank"><img
-                    src="http://theappchicks.com/mobile/theappchicksmobilemarketing-footer.png" width="175"/></a>
-            <br>Copyright &copy; <a href="http://theappchicks.com" target="_blank">The App Chicks</a> All rights reserved. 2013
+                    src="http://theappchicks.com/mobile/theappchicksmobilemarketing-footer.png" width="175"
+                    alt="Powered by The App Chicks"/></a>
+            <br>Copyright &copy; <a href="http://theappchicks.com" target="_blank">The App Chicks</a> All rights
+            reserved. 2013
         </div>
     </div>
 </div>
